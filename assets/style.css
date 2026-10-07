@@ -1,0 +1,51 @@
+body{
+    min-height: 100vh;
+    margin: 0px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-container h1{
+    color: #187acf;
+}
+.navbar{
+    display: flex;
+    gap: 15px;
+}
+.navbar a{
+    padding: 8px;
+    background-color: white;
+    border: #187acf solid 2px;
+    color: #187acf;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.navbar a:hover{
+    background-color: #187acf;
+    color: white;
+}
+.second-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ramadan h1{
+    color: #187acf;
+}
+.ramadan button{
+    background-color: white;
+    color: #187acf;
+    border: #187acf solid 2px;
+    border-radius: 18px;
+    padding: 10px;
+}
+.ramadan button:hover{
+    background-color: #187acf;
+    color: white;
+}
+aside img{
+    width: 350px;
+}
